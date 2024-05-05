@@ -1,0 +1,401 @@
+:root{
+    --facebook: #3b5999;
+    --github: #545454;
+    --telegram: #60b0f4;
+    --email: #ffd900;
+    --linkedin: #0077b5;
+
+    --Cyan: #0dcaf0;
+    --azulPrimary: #0d6efd;
+    --grisSecondary: #333333;
+    --blanco: #ffffff;
+    
+    --grisBotonera: #646464;
+    --grisCeleste: #7dbfda;
+    --grisClaro: #848484;
+    --gris: #545454;
+    --azul: #388ad1;
+    --negro: #05070c;
+    --negroClaro: #333333;
+}
+
+a {
+    color: var(--grisCeleste) !important;
+}
+
+a:hover {
+    color: var(--Cyan) !important;
+}
+
+p {
+    text-align: justify;
+}
+
+.textoJustificado {
+    text-align: justify;
+}
+
+body {
+    background: var(--negroClaro) !important;
+}
+
+section, footer {
+    height: auto !important;
+}
+
+#botoneraPrincipal {
+    background: var(--grisBotonera);
+}
+
+#inicio {
+    height: 93vh !important;
+    background: linear-gradient(-45deg, rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../../assets/img/background.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+
+#cuerpoInicio {
+    height: 80vh !important;
+}
+
+h1{
+    background: linear-gradient(rgba(5,7,12,0.75), var(--grisCeleste));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 1px var(--grisSecondary);
+}
+ul{
+    text-align: center;
+}
+
+.redesSociales ul {
+    padding: 0px;
+}
+
+.redesSociales ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: sticky;
+}
+
+.redesSociales ul li a {
+    display: block;
+    padding: 0 10px;
+    color: #ffffff !important;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.redesSociales ul:hover a{
+    filter: blur(2px);
+}
+
+.redesSociales ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+    color: #ffffff !important;
+}
+
+.redesSociales ul li .facebook{
+    background: var(--facebook);
+}
+
+.redesSociales ul li .github{
+    background: var(--github);
+    color: #ffffff;
+}
+
+.redesSociales ul li .linkedin{
+    background: var(--linkedin);
+}
+
+.redesSociales ul li .telegram{
+    background: var(--telegram);
+}
+
+.redesSociales ul li .email{
+    background: var(--email);
+}
+
+.redesSociales ul li .facebook:hover{
+    background: var(--facebook);
+}
+
+.redesSociales ul li .github:hover{
+    background: var(--github);
+    color: #ffffff;
+}
+
+.redesSociales ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+
+.redesSociales ul li .telegram:hover{
+    background: var(--telegram);
+}
+
+.redesSociales ul li .email:hover:hover{
+    background: var(--email);
+}
+
+.separadorDeSeccion {
+    background: linear-gradient( 45deg, var(--grisSecondary) 50%, var(--gris) 50%);
+}
+
+.tituloDeSeccion {
+    background: linear-gradient( 45deg, var(--azul) 50%, var(--grisSecondary) 50%) ;
+}
+
+h2 {
+    background: linear-gradient(45deg, var(--grisSecondary) 50%, var(--azul) 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 60px !important;
+    text-transform: uppercase;
+}
+
+.estiloCaja {
+    background: var(--grisBotonera) !important;
+    border: 2px solid var(--grisCeleste)!important;
+}
+
+h3 {
+    color: var(--grisCeleste);
+}
+
+.destacadoGrisCeleste {
+    color: var(--grisCeleste);
+    font-size: 20px;
+}
+
+#btnDescarga {
+    background: var(--azul);
+}
+#btnDescarga:hover {
+    background-color: var(--Cyan) !important;
+}
+
+#btnLee {
+    background: var(--grisCeleste);
+}
+
+#btnLee:hover {
+    background: var(--Cyan) !important;
+}
+
+.tecnologias ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    position: sticky;
+}
+
+
+.tecnologias ul li a {
+    display: block;
+    margin: 10px 0px;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 18px;
+    /* box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2); */
+    transition: 0.3s;
+    text-decoration: none;
+    /* background: linear-gradient(var(--grisSecondary), var(--grisBotonera)); */
+}
+
+.tecnologias ul:hover a{
+    filter: blur(2px);
+}
+
+.tecnologias ul li a:hover{
+    color: var(--Cyan) !important;
+    transform: translateY(-3px) scale(1.05);
+    /* box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4); */
+    filter: none;
+}
+
+.tarjetaEstilo {
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    background: linear-gradient(var(--grisSecondary), var(--grisBotonera));
+    border: 3px solid var(--grisCeleste);
+    box-shadow: 2px 1px 5px 1px var(--grisCeleste);
+    position: sticky;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+
+h5 {
+    color: var(--grisCeleste);
+}
+
+.tarjetaEstilo p {
+    border-bottom: 5px solid var(--grisCeleste);
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.tarjetaEstilo:hover {
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    border: 3px solid var(--Cyan);
+    box-shadow: 2px 1px 5px 1px var(--Cyan);
+}
+
+.tarjetaEstilo:hover h4 {
+    color: var(--Cyan);
+}
+
+.tarjetaEstilo:hover p {
+    border-bottom: 5px solid var(--Cyan);
+    overflow: hidden;
+}
+
+figure {
+    height: 100% !important;
+}
+
+.targetaPortafolio figure {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgba(5,7,12,0.75);
+    transition: all 500ms ease-out;
+}
+
+.targetaPortafolio figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+}
+
+/* .targetaPortafolio figure .capaPortafolio{
+    padding: 10px;
+    padding-top: 20%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5,7,12,0.4);
+    text-align: center;
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    visibility: hidden;
+    opacity: 0;
+} */
+
+.targetaPortafolio figure:hover .capaPortafolio {
+    opacity: 1;
+    visibility: visible;
+}
+
+.targetaPortafolio figure:hover {
+    z-index: 1;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+}
+
+.targetaPortafolio a {
+    font-size: 25px;
+    color: var(--blanco) !important;
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+}
+
+.targetaPortafolio a:hover {
+    text-shadow: -5px -5px 5px var(--Cyan);
+}
+
+#botoneraFooter ul li {
+    width: 150px;
+    height: 150px;
+}
+
+#botoneraFooter ul li a {
+    line-height: 150px;
+    font-size: 50px;
+}
+
+footer {
+    background-color: var(--negroClaro);
+}
+
+#copyright {
+    background-color: var(--negro);
+}
+
+@media all and (max-width: 749px){
+    #imagenLogo{
+        width: 26vh;
+    }
+    
+    h1{
+        font-size: 38px !important;
+    }
+
+    .tecnologias ul li {
+        height: 160px;
+    }
+    .tecnologias ul {
+        margin-left: -2rem;
+    }
+    .tecnologias ul:hover a{
+        filter: none;
+        -webkit-filter: none;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+}
+
+@media all and (min-width: 750px) and (max-width: 1023px){
+    h1{
+        font-size: 80px !important;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    h1{
+        font-size: 100px !important;
+    }
+}
