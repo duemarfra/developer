@@ -1,0 +1,27 @@
+[
+  {
+    "href": "https://www.facebook.com/duemarfra/",
+    "class": "facebook",
+    "iclass": "bi bi-facebook"
+  },
+  {
+    "href": "https://github.com/duemarfra",
+    "class": "github",
+    "iclass": "bi bi-github"
+  },
+  {
+    "href": "https://www.linkedin.com/in/marcelo-due/",
+    "class": "linkedin",
+    "iclass": "bi bi-linkedin"
+  },
+  {
+    "href": "https://t.me/marcelodue",
+    "class": "telegram",
+    "iclass": "bi bi-telegram"
+  },
+  {
+    "href": "mailto:duemarfra@gmail.com",
+    "class": "email",
+    "iclass": "bi bi-envelope-fill"
+  }
+]

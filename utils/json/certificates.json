@@ -1,0 +1,46 @@
+[
+  {
+    "src": "../developer/assets/img/certificates/utn1.jpg",
+    "title": "programador web inicial"
+  },
+  {
+    "src": "../developer/assets/img/certificates/utn2.jpg",
+    "title": "programador web con PHP & MySQL"
+  },
+  {
+    "src": "../developer/assets/img/certificates/utn3.jpg",
+    "title": "programacion PHP & MySQL nivel avanzado"
+  },
+  {
+    "src": "../developer/assets/img/certificates/utn4.jpg",
+    "title": "programacion web full stack"
+  },
+  {
+    "src": "../developer/assets/img/certificates/mecaris1.png",
+    "title": "introduccion a la programacion"
+  },
+  {
+    "src": "../developer/assets/img/certificates/mecaris2.png",
+    "title": "bootcamp ruby"
+  },
+  {
+    "src": "../developer/assets/img/certificates/mecaris3.png",
+    "title": "bootcamp ruby on rails"
+  },
+  {
+    "src": "../developer/assets/img/certificates/alkemy_rails.jpg",
+    "title": "skill up de ruby, scrum y habilidades blandas"
+  },
+  {
+    "src": "../developer/assets/img/certificates/pel.png",
+    "title": "Programa de entrenamiento laboral por Teclab"
+  },
+  {
+    "src": "../developer/assets/img/certificates/alumno_regular.png",
+    "title": "Constancia de alumno regular en Teclab"
+  },
+  {
+    "src": "../developer/assets/img/certificates/constancia_certificado_auxiliar.png",
+    "title": "Constancia de certificado 'Auxiliar en Programación'"
+  }
+]
