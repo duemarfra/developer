@@ -1,0 +1,86 @@
+[
+  {
+    "name": "HTML5",
+    "url": "https://es.wikipedia.org/wiki/HTML5",
+    "tooltip": "wikipedia.org/<b>HTML5</b>",
+    "imgSrc": "../developer/assets/img/technologies/htmlLogo.png",
+    "alt": "html5"
+  },
+  {
+    "name": "CSS3",
+    "url": "https://en.wikipedia.org/wiki/CSS",
+    "tooltip": "wikipedia.org/<b>CSS3</b>",
+    "imgSrc": "../developer/assets/img/technologies/cssLogo.png",
+    "alt": "css"
+  },
+  {
+    "name": "JavaScript",
+    "url": "https://es.wikipedia.org/wiki/JavaScript",
+    "tooltip": "wikipedia.org/<b>JavaScript</b>",
+    "imgSrc": "../developer/assets/img/technologies/javascriptLogo.png",
+    "alt": "javascript"
+  },
+  {
+    "name": "Ruby",
+    "url": "https://es.wikipedia.org/wiki/Ruby",
+    "tooltip": "wikipedia.org/<b>Ruby</b>",
+    "imgSrc": "../developer/assets/img/technologies/rubyLogo.png",
+    "alt": "ruby"
+  },
+  {
+    "name": "React Native",
+    "url": "https://es.wikipedia.org/wiki/React_Native",
+    "tooltip": "wikipedia.org/<b>React Native</b>",
+    "imgSrc": "../developer/assets/img/technologies/reactLogo.png",
+    "alt": "react"
+  },
+  {
+    "name": "Ruby on Rails",
+    "url": "https://es.wikipedia.org/wiki/Ruby_On_Rails",
+    "tooltip": "wikipedia.org/<b>RubyOnRails</b>",
+    "imgSrc": "../developer/assets/img/technologies/railsLogo.png",
+    "alt": "ruby on rails"
+  },
+  {
+    "name": "Bootstrap",
+    "url": "https://es.wikipedia.org/wiki/Bootstrap_(framework)",
+    "tooltip": "wikipedia.org/<b>Bootstrap</b>",
+    "imgSrc": "../developer/assets/img/technologies/bootstrapLogo.png",
+    "alt": "bootstrap"
+  },
+  {
+    "name": "MySQL",
+    "url": "https://es.wikipedia.org/wiki/MySQL",
+    "tooltip": "wikipedia.org/<b>MySQL</b>",
+    "imgSrc": "../developer/assets/img/technologies/mysqlLogo.png",
+    "alt": "mysql"
+  },
+  {
+    "name": "PostgreSQL",
+    "url": "https://es.wikipedia.org/wiki/Postgresql",
+    "tooltip": "wikipedia.org/<b>PostgreSQL</b>",
+    "imgSrc": "../developer/assets/img/technologies/postgresqlLogo.png",
+    "alt": "postgresql"
+  },
+  {
+    "name": "Windows",
+    "url": "https://es.wikipedia.org/wiki/Windows",
+    "tooltip": "wikipedia.org/<b>Windows</b>",
+    "imgSrc": "../developer/assets/img/technologies/windowsLogo.png",
+    "alt": "windows"
+  },
+  {
+    "name": "Ubuntu",
+    "url": "https://es.wikipedia.org/wiki/Ubuntu",
+    "tooltip": "wikipedia.org/<b>Ubuntu</b>",
+    "imgSrc": "../developer/assets/img/technologies/ubuntuLogo.png",
+    "alt": "ubuntu"
+  },
+  {
+    "name": "Debian",
+    "url": "https://es.wikipedia.org/wiki/Debian_GNU/Linux",
+    "tooltip": "wikipedia.org/<b>Debian</b>",
+    "imgSrc": "../developer/assets/img/technologies/debianLogo.png",
+    "alt": "debian"
+  }
+]
