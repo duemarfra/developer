@@ -1,0 +1,18 @@
+[
+  {
+    "id": "acerca",
+    "text": "acerca de mi"
+  },
+  {
+    "id": "servicios",
+    "text": "servicios"
+  },
+  {
+    "id": "certificados",
+    "text": "certificados"
+  },
+  {
+    "id": "contacto",
+    "text": "contacto"
+  }
+]

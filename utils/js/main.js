@@ -76,6 +76,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   };
 
+  const renderSectionTitles = async () => {
+    const response = await fetch('../developer/utils/json/sectionTitles.json');
+    const titles = await response.json();
+
+    const titlesLists = document.querySelectorAll('.titlesList');
+
+    titlesLists.forEach(titlesList => {
+      const matchingTitle = titles.find(title => titlesList.classList.contains(title.id));
+      if (matchingTitle) {
+        titlesList.innerHTML = `
+          <div id="${matchingTitle.id}" class="mt-5 container-fluid">
+            <div class="separadorDeSeccion row pt-5">
+            </div>
+          </div>
+          <div class="container-fluid tituloDeSeccion pt-3 pb-3">
+            <h2>${matchingTitle.text}</h2>
+          </div>
+        `;
+      }
+    });
+  };
+
+
+  renderSectionTitles();
   renderContactos();
   renderTechnologies();
   renderServices();
