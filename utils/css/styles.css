@@ -1,4 +1,4 @@
-:root{
+:root {
     --facebook: #3b5999;
     --github: #545454;
     --telegram: #60b0f4;
@@ -9,7 +9,7 @@
     --azulPrimary: #0d6efd;
     --grisSecondary: #333333;
     --blanco: #ffffff;
-    
+
     --grisBotonera: #646464;
     --grisCeleste: #7dbfda;
     --grisClaro: #848484;
@@ -39,7 +39,8 @@ body {
     background: var(--negroClaro) !important;
 }
 
-section, footer {
+section,
+footer {
     height: auto !important;
 }
 
@@ -49,7 +50,7 @@ section, footer {
 
 #inicio {
     height: 93vh !important;
-    background: linear-gradient(-45deg, rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../../assets/img/background.jpg) !important;
+    background: linear-gradient(-45deg, rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../../assets/img/background.jpg) !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -59,14 +60,15 @@ section, footer {
     height: 80vh !important;
 }
 
-h1{
-    background: linear-gradient(rgba(5,7,12,0.75), var(--grisCeleste));
+h1 {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), var(--grisCeleste));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-stroke: 1px var(--grisSecondary);
 }
-ul{
+
+ul {
     text-align: center;
 }
 
@@ -94,65 +96,65 @@ ul{
     border-radius: 50%;
 }
 
-.redesSociales ul:hover a{
+.redesSociales ul:hover a {
     filter: blur(2px);
 }
 
-.redesSociales ul li a:hover{
+.redesSociales ul li a:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
     filter: none;
     color: #ffffff !important;
 }
 
-.redesSociales ul li .facebook{
+.redesSociales ul li .facebook {
     background: var(--facebook);
 }
 
-.redesSociales ul li .github{
+.redesSociales ul li .github {
     background: var(--github);
     color: #ffffff;
 }
 
-.redesSociales ul li .linkedin{
+.redesSociales ul li .linkedin {
     background: var(--linkedin);
 }
 
-.redesSociales ul li .telegram{
+.redesSociales ul li .telegram {
     background: var(--telegram);
 }
 
-.redesSociales ul li .email{
+.redesSociales ul li .email {
     background: var(--email);
 }
 
-.redesSociales ul li .facebook:hover{
+.redesSociales ul li .facebook:hover {
     background: var(--facebook);
 }
 
-.redesSociales ul li .github:hover{
+.redesSociales ul li .github:hover {
     background: var(--github);
     color: #ffffff;
 }
 
-.redesSociales ul li .linkedin:hover{
+.redesSociales ul li .linkedin:hover {
     background: var(--linkedin);
 }
 
-.redesSociales ul li .telegram:hover{
+.redesSociales ul li .telegram:hover {
     background: var(--telegram);
 }
 
-.redesSociales ul li .email:hover:hover{
+.redesSociales ul li .email:hover:hover {
     background: var(--email);
 }
 
 .separadorDeSeccion {
-    background: linear-gradient( 45deg, var(--grisSecondary) 50%, var(--gris) 50%);
+    background: linear-gradient(45deg, var(--grisSecondary) 50%, var(--gris) 50%);
 }
 
 .tituloDeSeccion {
-    background: linear-gradient( 45deg, var(--azul) 50%, var(--grisSecondary) 50%) ;
+    background: linear-gradient(45deg, var(--azul) 50%, var(--grisSecondary) 50%);
 }
 
 h2 {
@@ -167,7 +169,7 @@ h2 {
 
 .estiloCaja {
     background: var(--grisBotonera) !important;
-    border: 2px solid var(--grisCeleste)!important;
+    border: 2px solid var(--grisCeleste) !important;
 }
 
 h3 {
@@ -182,6 +184,7 @@ h3 {
 #btnDescarga {
     background: var(--azul);
 }
+
 #btnDescarga:hover {
     background-color: var(--Cyan) !important;
 }
@@ -216,11 +219,11 @@ h3 {
     /* background: linear-gradient(var(--grisSecondary), var(--grisBotonera)); */
 }
 
-.tecnologias ul:hover a{
+.tecnologias ul:hover a {
     filter: blur(2px);
 }
 
-.tecnologias ul li a:hover{
+.tecnologias ul li a:hover {
     color: var(--Cyan) !important;
     transform: translateY(-3px) scale(1.05);
     /* box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4); */
@@ -281,7 +284,7 @@ figure {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0px 15px 25px rgba(5,7,12,0.75);
+    box-shadow: 0px 15px 25px rgba(5, 7, 12, 0.75);
     transition: all 500ms ease-out;
 }
 
@@ -364,38 +367,41 @@ footer {
     background-color: var(--negro);
 }
 
-@media all and (max-width: 749px){
-    #imagenLogo{
+@media all and (max-width: 749px) {
+    #imagenLogo {
         width: 26vh;
     }
-    
-    h1{
+
+    h1 {
         font-size: 38px !important;
     }
 
     .tecnologias ul li {
         height: 160px;
     }
+
     .tecnologias ul {
         margin-left: -2rem;
     }
-    .tecnologias ul:hover a{
+
+    .tecnologias ul:hover a {
         filter: none;
         -webkit-filter: none;
     }
+
     h2 {
         font-size: 30px !important;
     }
 }
 
-@media all and (min-width: 750px) and (max-width: 1023px){
-    h1{
+@media all and (min-width: 750px) and (max-width: 1023px) {
+    h1 {
         font-size: 80px !important;
     }
 }
 
 @media all and (min-width: 1024px) {
-    h1{
+    h1 {
         font-size: 100px !important;
     }
 }

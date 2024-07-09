@@ -98,10 +98,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   };
 
+  const handleLoading = async () => {
+    const myBodyContainer = document.getElementById('myBody');
+    const spinnerContainer = document.getElementById('spinnerContainer');
+    const htmlToInsert = `
+    <div class="spinner-grow text-secondary" style="width: 6rem; height: 6rem" role="status"></div>
+    <div class="spinner-grow text-info" style="width: 6rem; height: 6rem" role="status"></div>
+    <div class="spinner-grow text-primary" style="width: 6rem; height: 6rem" role="status"></div>
+    `;
 
-  renderSectionTitles();
-  renderContactos();
-  renderTechnologies();
-  renderServices();
-  renderCertificates();
+    spinnerContainer.innerHTML = htmlToInsert;
+    myBodyContainer.classList.add('d-none');
+    await renderSectionTitles();
+    await renderContactos();
+    await renderTechnologies();
+    await renderServices();
+    await renderCertificates();
+    myBodyContainer.classList.remove('d-none');
+    spinnerContainer.innerHTML = '';
+    spinnerContainer.classList.add('d-none');
+  };
+
+  await handleLoading();
+
 });

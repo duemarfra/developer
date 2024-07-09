@@ -42,158 +42,167 @@
   </head>
 
   <body class="text-light">
-    <nav
-      class="navbar navbar-expand-md navbar-dark sticky-top"
-      id="botoneraPrincipal"
-    >
-      <div class="container-lg">
-        <a class="navbar-brand" href="#">
-          <img
-            src="assets/img/logo/logoCompletoMini.png"
-            alt="Marcelo Dueñas diseñador web"
-            id="imagenLogo"
-          />
-        </a>
+    <div
+      id="spinnerContainer"
+      class="d-flex justify-content-center align-items-center vh-100"
+    ></div>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="myBody">
+      <nav
+        class="navbar navbar-expand-md navbar-dark sticky-top"
+        id="botoneraPrincipal"
+      >
+        <div class="container-lg">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logo/logoCompletoMini.png"
+              alt="Marcelo Dueñas diseñador web"
+              id="imagenLogo"
+            />
+          </a>
 
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav pb-1 ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#acerca">Acerca</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificados">Certificados</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="new"
-                href="https://github.com/duemarfra?tab=repositories"
-                >Portafolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <section id="inicio">
-      <div class="container-fluid" id="cuerpoInicio">
-        <div
-          class="row justify-content-center align-items-center vh-100 text-center"
-        >
-          <div class="col-12 align-items-center">
-            <h1 class="text-uppercase">full stack<br />developer</h1>
-          </div>
-
-          <nav class="redesSociales">
-            <ul class="contactosList"></ul>
-          </nav>
-        </div>
-      </div>
-    </section>
-
-    <div class="acerca titlesList"></div>
-
-    <section class="container-lg">
-      <div class="row mt-5 mb-3 text-center">
-        <div class="col-10 offset-1 col-md-3 mb-3 mb-md-0 p-0">
-          <img
-            src="assets/img/selfies/yo_2_1.png"
-            class="img-fluid rounded"
-            alt="Marcelo Dueñas desarrollador web"
-            style="width: 80%"
-          />
-        </div>
-
-        <div
-          class="col-10 offset-1 offset-md-0 col-md-7 rounded p-3 textoJustificado estiloCaja"
-        >
-          <h3>¡Hola!</h3>
-          <p>
-            Soy Marcelo Dueñas, un desarrollador
-            <strong>Full Stack</strong> cursando el ultimo cuatrimestre de la
-            "Tecnicatura en Programacion". Cuento con experiencia en una amplia
-            gama de tecnologías tanto en el <strong>frontend</strong> como en el
-            <strong>backend</strong>. Mi pasión radica en el desarrollo de
-            aplicaciones <strong>webs</strong> y <strong>mobiles</strong>,
-            disfruto trabajar con los lenguajes que más amo:
-            <strong>Ruby</strong> y <strong>JavaScript</strong>, junto con sus
-            frameworks
-            <strong>Ruby on Rails <i class="bi bi-gem text-danger"></i></strong>
-            y <strong>React Native Expo</strong> ⚛️ respectivamente. Además,
-            estoy dispuesto a aprender cualquier otra tecnología necesaria para
-            cumplir con los requerimientos de los proyectos.
-          </p>
-          <div class="text-center">
-            <a target="new" href="utils/pdf/Marcelo_Dueñas_CV.pdf">
-              <button
-                id="btnDescarga"
-                type="button"
-                class="btn text-white mt-1"
-              >
-                <i class="bi bi-cloud-arrow-down"></i> Descarga mi CV
-              </button>
-            </a>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav pb-1 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca">Acerca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certificados">Certificados</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="new"
+                  href="https://github.com/duemarfra?tab=repositories"
+                  >Portafolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-
-      <div class="text-center mt-3 mb-3">
-        <h3 class="text-uppercase">Mis habilidades</h3>
-      </div>
-
-      <nav class="tecnologias">
-        <ul id="technologiesList"></ul>
-      </nav>
-    </section>
-
-    <div class="servicios titlesList"></div>
-
-    <section class="container-lg text-center">
-      <div class="row mt-5" id="servicesList"></div>
-    </section>
-
-    <div class="certificados titlesList"></div>
-
-    <section class="container-lg mt-5 mb-0 p-4">
-      <div class="row" id="certificatesList"></div>
-    </section>
-
-    <div class="contacto titlesList"></div>
-
-    <footer class="text-center">
-      <nav class="redesSociales mb-5 pt-5" id="botoneraFooter">
-        <ul class="contactosList"></ul>
       </nav>
 
-      <div id="copyright">
-        Desarrollado y diseñado por Marcelo Dueñas. © 2024. Todos los derechos
-        reservados.
-      </div>
-    </footer>
+      <section id="inicio">
+        <div class="container-fluid" id="cuerpoInicio">
+          <div
+            class="row justify-content-center align-items-center vh-100 text-center"
+          >
+            <div class="col-12 align-items-center">
+              <h1 class="text-uppercase">full stack<br />developer</h1>
+            </div>
+
+            <nav class="redesSociales">
+              <ul class="contactosList"></ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <div class="acerca titlesList"></div>
+
+      <section class="container-lg">
+        <div class="row mt-5 mb-3 text-center">
+          <div class="col-10 offset-1 col-md-3 mb-3 mb-md-0 p-0">
+            <img
+              src="assets/img/selfies/yo_2_1.png"
+              class="img-fluid rounded"
+              alt="Marcelo Dueñas desarrollador web"
+              style="width: 80%"
+            />
+          </div>
+
+          <div
+            class="col-10 offset-1 offset-md-0 col-md-7 rounded p-3 textoJustificado estiloCaja"
+          >
+            <h3>¡Hola!</h3>
+            <p>
+              Soy Marcelo Dueñas, un desarrollador
+              <strong>Full Stack</strong> cursando el ultimo cuatrimestre de la
+              "Tecnicatura en Programacion". Cuento con experiencia en una
+              amplia gama de tecnologías tanto en el
+              <strong>frontend</strong> como en el <strong>backend</strong>. Mi
+              pasión radica en el desarrollo de aplicaciones
+              <strong>webs</strong> y <strong>mobiles</strong>, disfruto
+              trabajar con los lenguajes que más amo: <strong>Ruby</strong> y
+              <strong>JavaScript</strong>, junto con sus frameworks
+              <strong
+                >Ruby on Rails <i class="bi bi-gem text-danger"></i
+              ></strong>
+              y <strong>React Native Expo</strong> ⚛️ respectivamente. Además,
+              estoy dispuesto a aprender cualquier otra tecnología necesaria
+              para cumplir con los requerimientos de los proyectos.
+            </p>
+            <div class="text-center">
+              <a target="new" href="utils/pdf/Marcelo_Dueñas_CV.pdf">
+                <button
+                  id="btnDescarga"
+                  type="button"
+                  class="btn text-white mt-1"
+                >
+                  <i class="bi bi-cloud-arrow-down"></i> Descarga mi CV
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-3 mb-3">
+          <h3 class="text-uppercase">Mis habilidades</h3>
+        </div>
+
+        <nav class="tecnologias">
+          <ul id="technologiesList"></ul>
+        </nav>
+      </section>
+
+      <div class="servicios titlesList"></div>
+
+      <section class="container-lg text-center">
+        <div class="row mt-5" id="servicesList"></div>
+      </section>
+
+      <div class="certificados titlesList"></div>
+
+      <section class="container-lg mt-5 mb-0 p-4">
+        <div class="row" id="certificatesList"></div>
+      </section>
+
+      <div class="contacto titlesList"></div>
+
+      <footer class="text-center">
+        <nav class="redesSociales mb-5 pt-5" id="botoneraFooter">
+          <ul class="contactosList"></ul>
+        </nav>
+
+        <div id="copyright">
+          Desarrollado y diseñado por Marcelo Dueñas. © 2024. Todos los derechos
+          reservados.
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
