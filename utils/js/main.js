@@ -66,9 +66,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const certificatesList = document.getElementById('certificatesList');
       certificatesList.innerHTML = certificates.map(certificate => `
-        <div class="col-10 offset-1 col-md-4 offset-md-0 col-sm-6 offset-sm-0 bg-danger p-0 targetaPortafolio">
+        <div class="col-10 offset-1 col-md-4 offset-md-0 col-sm-6 offset-sm-0 p-0 targetaPortafolio">
           <figure>
-            <img src="${certificate.src}" class="img-fluid" alt="laptop">
+            <div class="spinner-border text-primary" role="status">
+            </div>
+            <img src="${certificate.src}" class="img-fluid imgCertificates d-none" alt="laptop">
             <div class="text-white capaPortafolio">
               <h5 class="text-uppercase">${certificate.title}</h5>
               <hr>
@@ -77,8 +79,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
           </figure>
         </div>
-  
-      `).join('');
+        `).join('');
+
+      const images = certificatesList.querySelectorAll('img');
+
+      images.forEach(img => {
+        img.addEventListener('load', () => {
+          img.classList.remove('d-none');
+          img.previousElementSibling.style.display = 'none';
+        });
+        img.addEventListener('error', () => {
+          img.previousElementSibling.innerHTML = '<span class="text-danger">Error loading image</span>';
+        });
+      });
+
     } catch (error) {
       console.error('Error fetching renderCertificates:', error);
     }
