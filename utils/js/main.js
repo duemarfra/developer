@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       const certificates = await response.json();
 
       const certificatesList = document.getElementById('certificatesList');
-      certificatesList.innerHTML = certificates.map(certificate => `
+      certificatesList.innerHTML = certificates.map(certificate =>
+        certificate.src && certificate.title ? `
         <div class="col-10 offset-1 col-md-4 offset-md-0 col-sm-6 offset-sm-0 p-0 targetaPortafolio">
           <figure>
             <div class="spinner-border text-primary" role="status">
@@ -79,6 +80,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
           </figure>
         </div>
+        ` : `
+        <div></div>
         `).join('');
 
       const images = certificatesList.querySelectorAll('img');

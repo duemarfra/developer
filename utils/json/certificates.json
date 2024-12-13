@@ -44,12 +44,8 @@
     "title": "Constancia de certificado 'Diploma Egresado'"
   },
   {
-    "src": "../developer/assets/img/certificates/diploma_egresado.png",
-    "title": "Constancia de certificado 'Diploma Egresado'"
-  },
-  {
-    "src": "../developer/assets/img/certificates/constancia_titulo_en_tramite.png",
-    "title": "Constancia de certificado 'Constancia titulo en tramite'"
+    "src": "",
+    "title": ""
   },
   {
     "src": "../developer/assets/img/certificates/alumno_regular.png",
@@ -58,5 +54,9 @@
   {
     "src": "../developer/assets/img/certificates/constancia_certificado_auxiliar.png",
     "title": "Constancia de certificado 'Auxiliar en Programación'"
+  },
+  {
+    "src": "../developer/assets/img/certificates/constancia_titulo_en_tramite.png",
+    "title": "Constancia de certificado 'Constancia titulo en tramite'"
   }
 ]
